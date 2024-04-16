@@ -1,0 +1,497 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  margin: 0 auto;
+}
+
+button,
+button svg {
+  transition: 0.2s;
+}
+
+body {
+  background: #f5f5fa;
+}
+
+button {
+  cursor: pointer;
+}
+
+#content {
+  height: 100vh;
+  max-width: 498px;
+  margin: 0 auto;
+  width: 96%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#anketa_form {
+  text-align: center;
+  max-width: 498px;
+  min-width: 480px;
+  margin: 0 auto;
+  position: absolute;
+  top: 10%;
+  width: 100%;
+}
+
+#anketa_form .logo {
+}
+
+#anketa_form .logo img {
+  margin: 0 auto;
+  width: 154.55px;
+  height: 64px;
+}
+
+#anketa_form .text_one {
+}
+
+#anketa_form .text_one .text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #777777;
+  margin: 60px auto 0 auto;
+  max-width: 450px;
+  /* margin: 0 auto; */
+}
+
+#anketa_form .text_two .text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #777777;
+  text-align: center;
+}
+
+#anketa_form .block_skip {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+#anketa_form .block_skip div {
+  width: 100%;
+}
+
+#anketa_form .text-finish-one {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #777777;
+}
+
+#anketa_form .text-finish-two {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #777777;
+}
+
+#anketa_form .button_skip {
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  background: none;
+  padding: 0px;
+  border: none;
+  gap: 5px;
+}
+
+#anketa_form .button_skip .button_text {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#anketa_form .button_skip .button_img {
+  position: relative;
+  left: 0px;
+  transition: 0.2s;
+}
+
+#anketa_form .button_skip:hover .button_img {
+  position: relative;
+  left: 5px;
+}
+
+#anketa_form .button_skip .button_img svg {
+}
+
+#anketa_form .button_skip .button_img path {
+}
+
+#anketa_form .block_back .button_skip:hover .button_img {
+  position: relative;
+  left: -5px;
+}
+
+#anketa_form .block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 24px 40px 24px;
+  gap: 24px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 24px 24px 24px 2px;
+  /* flex: none; */
+  order: 1;
+  flex-grow: 0;
+  margin: 30px 0;
+}
+
+#anketa_form .block .header {
+  max-width: 450px;
+  height: 25px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 120%;
+  text-align: center;
+  color: #231f20;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#anketa_form .block .button_full {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 450px;
+}
+
+#anketa_form .block .button_two {
+  flex-direction: row;
+}
+
+#anketa_form .block .button_block {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 100%;
+  flex: none;
+  flex-grow: 0;
+}
+
+#anketa_form .button_block button {
+  width: 168px;
+  padding: 18px 32px 18px 32px;
+  border-radius: 16px 16px 16px 0px;
+  gap: 8px;
+  background: #e7e7e7;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+
+#anketa_form .button_block button .text_button {
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+}
+
+#anketa_form .button_block .button_fulls {
+  width: 100%;
+}
+
+#anketa_form .button_block .button_next {
+  max-width: 160px;
+  display: flex;
+}
+
+#anketa_form .button_block .button_next svg {
+  height: 20px;
+}
+
+#anketa_form .block_back_next {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin: 10px 0 0 0;
+}
+
+#anketa_form .block_back {
+  width: 100%;
+  text-align: left;
+  position: relative;
+  /* top: 10px; */
+  /* width: 50%; */
+}
+
+#anketa_form .block_next {
+  width: 50%;
+  text-align: right;
+}
+
+#anketa_form .block_next .button_skip {
+  border: #777777 1px solid;
+  border-radius: 12px 12px 12px 0px;
+  padding: 8px 16px;
+}
+
+#anketa_form .block_next .button_skip:hover {
+  background: #777777;
+}
+
+#anketa_form .block_next .button_skip:hover span {
+  color: #ffffff;
+}
+
+#anketa_form .block_next .button_skip .button_text {
+  color: #777777;
+}
+
+#anketa_form .button_block .button_value {
+  color: #ecebf5;
+  padding: 0px 0px 0px 16px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid #ecebf5;
+  padding: 10px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#anketa_form .button_block .button_value::-moz-placeholder {
+  color: #999999;
+}
+
+#anketa_form .button_block .button_value::-webkit-input-placeholder {
+  color: #999999;
+}
+
+#anketa_form button.button_gray {
+  background: #999999;
+  color: #fff;
+}
+
+#anketa_form .text_and {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #231f20;
+}
+
+#anketa_form .politic .politic_text {
+  color: #777777;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#anketa_form .politic .politic_text a {
+  text-decoration: none;
+  border-bottom: 1px solid #231f20;
+  color: #231f20;
+}
+
+#anketa_form .politic .politic_text a:hover {
+  border-color: #231f2000;
+}
+
+#anketa_form .block_no_code {
+  text-align: center;
+}
+
+#anketa_form .button_no_code {
+  border: none;
+  background: none;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#anketa_form .no_code_text {
+}
+
+#registr_buttom {
+  text-align: center;
+  width: 96%;
+  position: absolute;
+  bottom: 5%;
+  max-width: 498px;
+  margin: 0 auto;
+}
+
+#registr_buttom .text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #231f20;
+  width: 100%;
+  margin: 0 0 15px 0;
+}
+
+#registr_buttom .enter {
+  margin: 0 0 20px 0;
+}
+
+#registr_buttom .login {
+  background: none;
+  border: none;
+  color: #2e81ff;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+#registr_buttom .logon .text_button {
+  color: #2e81ff;
+}
+
+#anketa_form .block_study {
+  display: flex;
+}
+
+#anketa_form .block_studys {
+  width: 25%;
+  border-bottom: 3px solid #cbd5e1;
+  display: flex;
+  gap: 8px;
+  height: 47px;
+  align-items: center;
+  margin: 48px 0 0 0;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+#anketa_form .block_studys .img {
+  width: 24px;
+}
+
+#anketa_form .block_studys_active,
+#anketa_form .block_studys_good {
+  border-color: #0f172a;
+}
+
+#anketa_form .block_studys svg {
+  width: 24px;
+}
+
+#anketa_form .block_studys .number {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 90%;
+}
+
+@media (max-width: 1600px) {
+  #content {
+    display: grid;
+    height: 100%;
+    align-items: end;
+  }
+
+  #anketa_form {
+    top: initial;
+    position: initial;
+    margin: 20px 0 0 0;
+    min-height: 542px;
+  }
+
+  #registr_buttom {
+    bottom: initial;
+    position: initial;
+    margin: 30px 0 0px 0;
+    width: 100%;
+  }
+
+  #anketa_form .block_studys {
+    margin: 30px 0 0 0;
+  }
+
+  #anketa_form .logo img {
+    height: 50px;
+  }
+
+  #anketa_form .block .header {
+    font-size: 20px;
+  }
+
+  #anketa_form .block .button_block {
+    gap: 20px;
+  }
+
+  #anketa_form .button_block button {
+    padding: 13px 32px;
+  }
+
+  #anketa_form .button_block button .text_button {
+    font-size: 14px;
+  }
+
+  #anketa_form .block {
+    gap: 20px;
+  }
+
+  #anketa_form .block {
+    padding: 30px 24px 30px 24px;
+    margin: 25px 0;
+  }
+
+  #registr_buttom .text {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 0 5px 0;
+  }
+
+  #anketa_form .text_one .text {
+    font-size: 15px;
+  }
+
+  #anketa_form .text-finish-one {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  #content {
+    width: 84%;
+  }
+
+  #anketa_form {
+    min-width: initial;
+  }
+
+  #anketa_form .button_block button {
+    width: initial;
+  }
+}
